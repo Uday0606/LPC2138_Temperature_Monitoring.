@@ -1,5 +1,4 @@
 //lcd.c
-//#include <LPC21xx.h>
 #include <LPC213x.h>
 #include "lcd.h"
 #include "defines.h"
@@ -74,5 +73,6 @@ void u32LCD(int  n)
         }
     }
 }
+
 
 
