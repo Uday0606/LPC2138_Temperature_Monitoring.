@@ -17,7 +17,7 @@ Real-time temperature monitoring system using LPC2138, LM35, LCD, LEDs, and UART
 - LM35 Sensor, 16x2 LCD  
 
 #How to Run:  
-1. Open `Proteus/schematic.pdsprj` in Proteus.  
+1. Open smart sensor.pdsprj in Proteus.  
 2. Compile the source code in Keil IDE.  
 3. Load the `.hex` file into the Proteus microcontroller.  
 4. Run the simulation and monitor LCD, LEDs, and UART output.
