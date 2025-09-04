@@ -1,4 +1,4 @@
-//#include <LPC21xx.h>
+
 #include <LPC213x.h>
 #include "uart.h"
 #include "uart_defines.h"
@@ -67,5 +67,6 @@ char UART0_RxChar(void)
     while (!(U0LSR & (1 << 0)));  // wait until RDR (data ready)
     return U0RBR;
 }
+
 
 
